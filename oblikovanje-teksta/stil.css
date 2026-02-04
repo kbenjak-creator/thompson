@@ -1,0 +1,17 @@
+body{
+    background-color: coral;
+}
+.kartica{
+    background-color: darkgoldenrod;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-left: 5px solid violet;
+}
+
+
+.font{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: blue;
+}
