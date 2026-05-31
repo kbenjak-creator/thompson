@@ -1,0 +1,108 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(117, 52, 52);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: rgb(114, 106, 84);
+    text-align: center;
+}
+
+nav a {
+    color: rgb(69, 74, 12);
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.container {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.galerija {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.galerija img {
+    width: 30%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(164, 7, 7);
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+    }
+}
+
+
+.albumi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.album {
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.album img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.album:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .album {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .album {
+        width: 100%;
+    }
+
+}
